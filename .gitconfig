@@ -1,0 +1,11 @@
+[user]
+	email = me@caramdir.at
+	name = Clemens Koppensteiner
+[push]
+	default = simple
+[color]
+	ui = true
+[alias]
+	ci = commit
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	undo-commit = reset --soft HEAD^
